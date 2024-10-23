@@ -50,9 +50,9 @@ $(window).scroll(function(){
 let top=$(this).scrollTop();//스크롤이 움직일때마다 바뀜, this는 window
 
 if (top>lastTop){
-$(".header").css({'marginTop':'-100px'})//header transtion 속성 작성 0.5s
+$(".header").css({'margin-top':'-100px'})//header transtion 속성 작성 0.5s
 }else{
-$(".header").css({'maginTop':'0px'})
+$(".header").css({'margin-top':'0px'})
 }
 lastTop=top;
 
